@@ -1,0 +1,38 @@
+.custom-tabs-container {
+    width: 100%;
+}
+.custom-tabs {
+    border-top-left-radius: 3px;
+    /* background-color: #002137; /* темный синий */
+    padding: 0px 24px;
+    border-bottom: 1px solid #002137; /* темный синий */
+}
+ /* #4c5866; светло серо синий */
+ /*  #003357; глубокий синий */
+.custom-tab {
+    color:#002137; /* темный синий */
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    /*border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;*/
+    border-top: 1px solid !important;
+    border-left: 0.5 px solid !important;
+    border-right: 0.5 px solid !important;
+    border-bottom: 0.5 px !important;
+    background-color: #003357; /* глубокий синий */
+    padding: 12px !important;
+    font-family: "system-ui";
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.custom-tab--selected {
+    color: #4c5866 !important;
+    font-weight: bold;
+    box-shadow: 1px 1px 0px white;
+    border-left: 1px solid lightgrey !important;
+    border-right: 1px solid lightgrey !important;
+    border-top: 3px solid #002137 !important; /* темный синий */
+}
+/*.split1 {background-color: #003357; color: #ffffff;}
+
